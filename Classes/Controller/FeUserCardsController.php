@@ -2,21 +2,22 @@
     namespace HamburgerJungeJr\FeUserCards\Controller;
     
     use TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
-    use TYPO3\CMS\Extbase\Domain\Repository\FrontendUserRepository;
+    //use TYPO3\CMS\Extbase\Domain\Repository\FrontendUserRepository;
+    use HamburgerJungeJr\FeUserCards\Domain\Repository\ExtendedFrontendUserRepository;
 	class FeUserCardsController extends ActionController
 	{
         /**
-         * @var TYPO3\CMS\Extbase\Domain\Repository\FrontendUserRepository
+         * @var HamburgerJungeJr\FeUserCards\Domain\Repository\ExtendedFrontendUserRepository
          */
         private $feUserRepository;
 
         /**
          * Inject the frontend user repository
          *
-         * @param TYPO3\CMS\Extbase\Domain\Repository\FrontendUserRepository $feUserRepository
+         * @param HamburgerJungeJr\FeUserCards\Domain\Repository\ExtendedFrontendUserRepository $feUserRepository
          * @return void
          */
-        public function injectFeUserRepository(FrontendUserRepository $feUserRepository)
+        public function injectFeUserRepository(ExtendedFrontendUserRepository $feUserRepository)
         {
             $this->feUserRepository = $feUserRepository;
         }

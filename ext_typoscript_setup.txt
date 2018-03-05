@@ -1,0 +1,14 @@
+config.tx_extbase {
+    persistence {
+        classes {
+            HamburgerJungeJr\FeUserCards\Domain\Model\ExtendedFrontendUser {
+                mapping {
+                    tableName = fe_users
+                    columns {
+                        fe_user_cards_position.mapOnProperty = feUserCardsPosition
+                    }
+                }
+            }
+        }
+    }
+}

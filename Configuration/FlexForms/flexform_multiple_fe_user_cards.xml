@@ -15,7 +15,7 @@
 					<!-- userGroup -->
 					<settings.userGroup>
 						<TCEforms>
-							<label>User Group</label>
+							<label>LLL:EXT:/fe_user_cards/Resources/Private/Language/locallang_db.xlf:fe_user_cards.user_groups</label>
 							<config>
 								<type>select</type>
 								<renderType>selectMultipleSideBySide</renderType>

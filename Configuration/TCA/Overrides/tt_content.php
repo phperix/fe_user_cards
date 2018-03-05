@@ -3,7 +3,7 @@
     $_EXTKEY = $GLOBALS['_EXTKEY'] = 'fe_user_cards';
     $extensionName = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($_EXTKEY);
     $pluginSignature = strtolower($extensionName) . '_multiplefeusercards';
-    $pluginTitle = 'Multiple fe_user cards';
+    $pluginTitle = 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_user_cards.multiple_fe_user_cards_title';
     $pluginIcon = '';
     $pluginType = 'list_type';
 

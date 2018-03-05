@@ -17,7 +17,7 @@
             'exclude' => 0,
             'config' => array(
                 'type' => 'input',
-                'max' => 255
+                'max' => 30
             ),
         ),
         'fe_user_cards_sorting' => array(

@@ -18,7 +18,8 @@
 							<label>User Group</label>
 							<config>
 								<type>select</type>
-								<renderType>selectSingle</renderType>
+								<renderType>selectMultipleSideBySide</renderType>
+								<size>5</size>
                                 <foreign_table>fe_groups</foreign_table>
                                 <foreign_table_where>
                                     AND fe_groups.pid = (SELECT pages FROM tt_content WHERE uid=###THIS_UID###)

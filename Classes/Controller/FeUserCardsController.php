@@ -27,7 +27,14 @@
          * @return void
          */
 		public function multipleFeUserCardsAction() {
-			$this->view->assign('feuser', $this->feUserRepository->findAll());
-		}
+			$this->view->assign('feuser', $this->retrieveUserByGroup($this->settings['userGroup']));
+        }
+        
+        private function retrieveUserByGroup($userGroups){
+            $groups = explode(',', $userGroups);
+            $query = $this->feUserRepository->createQuery();
+            $query->matching($query->in('usergroup.uid', $groups));
+            return $query->execute();
+        }
 	}
 	

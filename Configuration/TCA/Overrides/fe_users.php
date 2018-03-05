@@ -12,6 +12,14 @@
                 'max' => 255
             ),
         ),
+        'fe_user_cards_mobile' => array(
+            'label' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_users.fe_user_cards_mobile',
+            'exclude' => 0,
+            'config' => array(
+                'type' => 'input',
+                'max' => 255
+            ),
+        ),
         'fe_user_cards_sorting' => array(
             'label' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_users.fe_user_cards_sorting',
             'exclude' => 0,
@@ -31,6 +39,14 @@
         'fe_user_cards_position',
         '',
         'before:name'
+    );
+
+    // Add mobile after phone
+    \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
+        'fe_users',
+        'fe_user_cards_mobile',
+        '',
+        'after:telephone'
     );
 
     // Add sorting after TS Config

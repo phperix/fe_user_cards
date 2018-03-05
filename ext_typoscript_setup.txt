@@ -6,6 +6,8 @@ config.tx_extbase {
                     tableName = fe_users
                     columns {
                         fe_user_cards_position.mapOnProperty = feUserCardsPosition
+                        fe_user_cards_mobile.mapOnProperty = feUserCardsMobile
+                        fe_user_cards_sorting.mapOnProperty = feUserCardsSorting
                     }
                 }
             }

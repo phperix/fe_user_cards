@@ -15,6 +15,11 @@ namespace HamburgerJungeJr\FeUserCards\Domain\Model;
      * @var string
      */
     protected $feUserCardsSorting;
+
+    /**
+     * @var string
+     */
+    protected $feUserCardsMobile;
     
     function __construct() {
         parent::__construct();
@@ -37,6 +42,26 @@ namespace HamburgerJungeJr\FeUserCards\Domain\Model;
      */
     public function setFeUserCardsPosition($position){
         return $this->feUserCardsPosition;
+    }
+
+
+    /**
+     * Get Mobile
+     * 
+     * @return string
+     */
+    public function getFeUserCardsMobile(){
+        return $this->feUserCardsMobile;
+    }
+
+    /**
+     * Set Mobile
+     * 
+     * @param string $mobile mobile
+     * @return void
+     */
+    public function setFeUserCardsMobile($mobile){
+        return $this->feUserCardsMobile;
     }
 
     /**

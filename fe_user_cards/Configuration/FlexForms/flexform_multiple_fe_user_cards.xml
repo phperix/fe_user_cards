@@ -1,0 +1,33 @@
+<T3DataStructure>
+	<sheets>
+		<!--
+			################################
+			  SHEET General Settings
+			################################
+		-->
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Settings</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<!-- userGroup -->
+					<settings.userGroup>
+						<TCEforms>
+							<label>User Group</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+                                <foreign_table>fe_groups</foreign_table>
+                                <foreign_table_where>
+                                    AND fe_groups.pid = (SELECT pages FROM tt_content WHERE uid=###THIS_UID###)
+                                </foreign_table_where>
+							</config>
+						</TCEforms>
+					</settings.userGroup>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>

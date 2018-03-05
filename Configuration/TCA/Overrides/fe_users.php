@@ -17,6 +17,7 @@
             'exclude' => 0,
             'config' => array(
                 'type' => 'input',
+                'size' => 20,
                 'max' => 30
             ),
         ),

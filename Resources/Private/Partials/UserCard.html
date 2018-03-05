@@ -1,0 +1,29 @@
+<div class="user">
+    <h1 class="name">{user.firstName}<f:if condition="{user.middleName}">&nbsp;{user.middleName}</f:if>&nbsp;{user.lastName}</h1>
+    <h6 class="contactposition">{user.feUserCardsPosition}</h6>
+    <div class="photo">
+        <f:image image="{user.image.0}"  width="180" height="286" alt="{user.firstName}{f:if(condition:'{user.middleName}',then:' {user.middleName}')} {user.lastName}"/>
+    </div>
+    <div class="email">
+        <div class="contactlabel">E-Mail:</div>
+        <div class="email contactdata">
+            <f:link.email email="{user.email}" />
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contactlabel">Telefon:</div>
+        <div class="tel contactdata">
+            <a href="phone:{user.telephone}">{user.telephone}</a>
+        </div>
+        <div class="contactlabel">Mobil:</div>
+        <div class="fax contactdata">
+            <a href="phone:{user.feUserCardsMobile}">{user.feUserCardsMobile}</a>
+        </div>
+    </div>
+    <div class="adr">
+        <div class="contactlabel">Adresse:</div>
+        <div class="street-address contactdata">{user.address}</div>
+        <div class="postal-code contactdata nobreak">{user.zip}</div>
+        <div class="locality contactdata">{user.city}</div>
+    </div>
+</div>

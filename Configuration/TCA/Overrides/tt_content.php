@@ -4,8 +4,8 @@
     $extensionName = \TYPO3\CMS\Core\Utility\GeneralUtility::underscoredToUpperCamelCase($_EXTKEY);
     $pluginSignatureSingle = strtolower($extensionName) . '_singlefeusercard';
     $pluginSignatureMultiple = strtolower($extensionName) . '_multiplefeusercards';
-    $pluginTitleSingle = 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_user_cards.single_fe_user_card_title';
-    $pluginTitleMultiple = 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_user_cards.multiple_fe_user_cards_title';
+    $pluginTitleSingle = 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_be.xlf:fe_user_cards.single_fe_user_card_title';
+    $pluginTitleMultiple = 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_be.xlf:fe_user_cards.multiple_fe_user_cards_title';
     $pluginIcon = '';
     $pluginType = 'list_type';
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file target-language="en" datatype="plaintext" original="messages" date="2016-06-18T12:03:24Z"
+          product-name="fe_user_cards">
+        <header/>
+        <body>
+            <trans-unit id="fe_user_cards.user">
+                <source>User</source>
+                <target>Benutzer</target>
+            </trans-unit>
+            <trans-unit id="fe_user_cards.user_groups">
+                <source>Usergroups</source>
+                <target>Benutzergruppen</target>
+            </trans-unit>
+            <trans-unit id="fe_user_cards.single_fe_user_card_title">
+                <source>Single fe_user card</source>
+                <target>Einzelne fe_user card</target>
+            </trans-unit>
+            <trans-unit id="fe_user_cards.multiple_fe_user_cards_title">
+                <source>Multiple fe_user cards</source>
+                <target>Mehrere fe_user cards</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

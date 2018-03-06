@@ -37,7 +37,7 @@
     // Add position before name
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
         'fe_users',
-        'fe_user_cards_position',
+        'tx_fe_user_cards_position',
         '',
         'before:name'
     );
@@ -45,7 +45,7 @@
     // Add mobile after phone
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
         'fe_users',
-        'fe_user_cards_mobile',
+        'tx_fe_user_cards_mobile',
         '',
         'after:telephone'
     );
@@ -53,7 +53,7 @@
     // Add sorting after TS Config
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
         'fe_users',
-        'fe_user_cards_sorting',
+        'tx_fe_user_cards_sorting',
         '',
         'before:TSconfig'
     );

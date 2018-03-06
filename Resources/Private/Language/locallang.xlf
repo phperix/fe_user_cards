@@ -4,14 +4,17 @@
           product-name="fe_user_cards">
         <header/>
         <body>
-            <trans-unit id="fe_users.fe_user_cards_position">
-                <source>Position</source>
+            <trans-unit id="email">
+                <source>EMail:</source>
             </trans-unit>
-            <trans-unit id="fe_users.fe_user_cards_mobile">
-                <source>Mobile</source>
+            <trans-unit id="phone">
+                <source>Phone:</source>
             </trans-unit>
-            <trans-unit id="fe_users.fe_user_cards_sorting">
-                <source>Sorting</source>
+            <trans-unit id="mobile">
+                <source>Mobile:</source>
+            </trans-unit>
+            <trans-unit id="address">
+                <source>Address:</source>
             </trans-unit>
         </body>
     </file>

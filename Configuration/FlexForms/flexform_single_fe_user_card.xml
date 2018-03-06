@@ -15,7 +15,7 @@
 					<!-- user -->
 					<settings.user>
 						<TCEforms>
-							<label>LLL:EXT:/fe_user_cards/Resources/Private/Language/locallang_db.xlf:fe_user_card.user</label>
+							<label>LLL:EXT:fe_user_cards/Resources/Private/Language/locallang_be.xlf:fe_user_card.user</label>
 							<config>
 								<type>select</type>
                                 <foreign_table>fe_users</foreign_table>

@@ -13,23 +13,23 @@
         
     </div>
     <div class="email">
-        <div class="contactlabel">E-Mail:</div>
+        <div class="contactlabel">{f:translate(key:'email')}</div>
         <div class="email contactdata">
             <f:link.email email="{user.email}" />
         </div>
     </div>
     <div class="contact">
-        <div class="contactlabel">Telefon:</div>
-        <div class="tel contactdata">
+        <div class="contactlabel">{f:translate(key:'phone')}</div>
+        <div class="phone contactdata">
             <a href="phone:{user.telephone}">{user.telephone}</a>
         </div>
-        <div class="contactlabel">Mobil:</div>
-        <div class="fax contactdata">
+        <div class="contactlabel">{f:translate(key:'mobile')}</div>
+        <div class="mobile contactdata">
             <a href="phone:{user.feUserCardsMobile}">{user.feUserCardsMobile}</a>
         </div>
     </div>
     <div class="address">
-        <div class="contactlabel">Adresse:</div>
+        <div class="contactlabel">{f:translate(key:'address')}</div>
         <div class="street-address contactdata">{user.address}</div>
         <div class="zip-locality contactdata">{user.zip} {user.city}</div>
     </div>

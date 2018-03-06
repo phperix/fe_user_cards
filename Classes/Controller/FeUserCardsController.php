@@ -23,7 +23,16 @@
         }
 
         /**
-         * Action for multiple fe_ser cards.
+         * Action for single fe_user card.
+         * 
+         * @return void
+         */
+		public function singleFeUserCardAction() {
+			$this->view->assign('feuser', $this->feUserRepository->findByUid($this->settings['user']));
+        }
+
+        /**
+         * Action for multiple fe_user cards.
          * 
          * @return void
          */

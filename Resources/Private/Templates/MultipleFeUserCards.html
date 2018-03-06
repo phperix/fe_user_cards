@@ -6,7 +6,9 @@
 </f:section>
 
 <f:section name="main">
-    <f:for each="{feuser}" as="user">
-        <f:render partial="UserCard" arguments="{user: user}" />
-    </f:for>
+    <div class="multiple">
+        <f:for each="{feuser}" as="user">
+            <f:render partial="UserCard" arguments="{user: user}" />
+        </f:for>
+    </div>
 </f:section>

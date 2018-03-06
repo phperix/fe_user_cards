@@ -14,5 +14,16 @@ call_user_func(
                 'FeUsercards' => '',
             ]
         );
+        \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
+            'HamburgerJungeJr.FeUserCards',
+            'SingleFeUserCard',
+            [
+                'FeUserCards' => 'singleFeUserCard',
+            ],
+            // non-cacheable actions
+            [
+                'FeUsercards' => '',
+            ]
+        );
     }
 );

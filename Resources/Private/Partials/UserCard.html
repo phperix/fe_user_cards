@@ -7,7 +7,7 @@
                 <f:image image="{user.image.0}"  width="180" height="286" alt="{user.firstName}{f:if(condition:'{user.middleName}',then:' {user.middleName}')} {user.lastName}"/>
             </f:then>
             <f:else>
-                <f:image src="EXT:fe_user_cards/Resources/Public/Media/dummy.png"  width="180" height="286" alt="{user.firstName}{f:if(condition:'{user.middleName}',then:' {user.middleName}')} {user.lastName}"/>
+                <f:image src="{f:uri.resource(path: 'Media/dummy.png')}"  width="180" height="286" alt="{user.firstName}{f:if(condition:'{user.middleName}',then:' {user.middleName}')} {user.lastName}"/>
             </f:else>
         </f:if>
         

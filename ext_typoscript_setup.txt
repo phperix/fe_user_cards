@@ -15,9 +15,3 @@ config.tx_extbase {
     }
 }
 
-plugin.fe_user_cards{
-    settings{
-        cssFile = {$plugin.fe_user_cards.settings.cssFile}
-        multipleCssFile = {$plugin.fe_user_cards.settings.multipleCssFile}
-    }
-}

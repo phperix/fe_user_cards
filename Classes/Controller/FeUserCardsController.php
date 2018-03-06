@@ -35,6 +35,7 @@
             $groups = explode(',', $userGroups);
             $query = $this->feUserRepository->createQuery();
             $query->matching($query->in('usergroup.uid', $groups));
+            $query->setOrderings(array('tx_fe_user_cards_sorting' => \TYPO3\CMS\Extbase\Persistence\QueryInterface::ORDER_ASCENDING));
             return $query->execute();
         }
 	}

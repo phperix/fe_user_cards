@@ -1,0 +1,9 @@
+# customcategory=feUserCards=Fe_User Cards
+plugin.tx_feusercards{
+    settings{
+        # cat=feUserCards; type=; label=Basic Css Configuration
+        cssFile = EXT:fe_user_cards/Resources/Public/Css/FeUserCards.css
+        # cat=feUserCards; type=; label=Css Configuration for multiple fe_user cards
+        multipleCssFile = EXT:fe_user_cards/Resources/Public/Css/Multiple.css
+    }
+}

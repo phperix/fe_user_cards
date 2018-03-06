@@ -4,7 +4,7 @@
 
     // Configure new fields:
     $fields = array(
-        'fe_user_cards_position' => array(
+        'tx_fe_user_cards_position' => array(
             'label' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_users.fe_user_cards_position',
             'exclude' => 0,
             'config' => array(
@@ -12,7 +12,7 @@
                 'max' => 255
             ),
         ),
-        'fe_user_cards_mobile' => array(
+        'tx_fe_user_cards_mobile' => array(
             'label' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_users.fe_user_cards_mobile',
             'exclude' => 0,
             'config' => array(
@@ -21,7 +21,7 @@
                 'max' => 30
             ),
         ),
-        'fe_user_cards_sorting' => array(
+        'tx_fe_user_cards_sorting' => array(
             'label' => 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_db.xlf:fe_users.fe_user_cards_sorting',
             'exclude' => 0,
             'config' => array(

@@ -5,12 +5,19 @@ config.tx_extbase {
                 mapping {
                     tableName = fe_users
                     columns {
-                        fe_user_cards_position.mapOnProperty = feUserCardsPosition
-                        fe_user_cards_mobile.mapOnProperty = feUserCardsMobile
-                        fe_user_cards_sorting.mapOnProperty = feUserCardsSorting
+                        tx_fe_user_cards_position.mapOnProperty = feUserCardsPosition
+                        tx_fe_user_cards_mobile.mapOnProperty = feUserCardsMobile
+                        tx_fe_user_cards_sorting.mapOnProperty = feUserCardsSorting
                     }
                 }
             }
         }
+    }
+}
+
+plugin.fe_user_cards{
+    settings{
+        cssFile = {$plugin.fe_user_cards.settings.cssFile}
+        multipleCssFile = {$plugin.fe_user_cards.settings.multipleCssFile}
     }
 }

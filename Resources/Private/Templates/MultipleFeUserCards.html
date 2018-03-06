@@ -1,5 +1,11 @@
-<div class="fe_user_cards">
+<f:layout name="default" />
+
+<f:section name="HeaderAssets">
+    <link rel="stylesheet" href="{f:uri.resource(path: 'Css/FeUserCards.css')}"/>
+</f:section>
+
+<f:section name="main">
     <f:for each="{feuser}" as="user">
         <f:render partial="UserCard" arguments="{user: user}" />
     </f:for>
-</div>
+</f:section>

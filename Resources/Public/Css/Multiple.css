@@ -1,0 +1,5 @@
+.fe_user_cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}

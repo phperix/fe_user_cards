@@ -1,55 +1,21 @@
-.fe_user_cards{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
 .fe_user_cards .user {
   width: 450px;
-  height: 640px;
-  border: 1px solid #F98703;
+  border: 1px solid;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  margin-top: 20px;
-}
-
-.fe_user_cards .user .photo {
-  float: none !important;
-  margin: 10px 0px 50px 0px !important;
-  text-align: center;
-}
-
-.fe_user_cards .user .email,
-.fe_user_cards .user .contact,
-.fe_user_cards .user .adr,
-.fe_user_cards .user .info {
-  border: none !important;
-  margin: 10px !important;
-  padding: 0px !important;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 
 .fe_user_cards .user div {
-  float: none !important;
-}
-
-.fe_user_cards .user .name {
-  margin-bottom: 10px !important;
-  font-size: 35px;
-}
-
-.fe_user_cards .user .contactlabel {
-  float: left !important;
-  width: 75px;
-}
-
-.fe_user_cards .user .contactdata {
-  margin-left: 75px;
   float: none;
 }
 
-.fe_user_cards .user .nobreak {
-  float: left !important;
+.fe_user_cards .user .name {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 35px;
 }
 
 .fe_user_cards .user .contactposition {
@@ -57,6 +23,26 @@
   margin-bottom: 50px;
 }
 
-label {
-  font-weight: inherit !important;
+.fe_user_cards .user .photo {
+  float: none;
+  margin: 10px 0px 50px 0px !important;
+  text-align: center;
+}
+
+.fe_user_cards .user .email,
+.fe_user_cards .user .contact,
+.fe_user_cards .user .address,
+.fe_user_cards .user .info {
+  border: none;
+  margin: 10px;
+  padding: 0px;
+}
+
+.fe_user_cards .user .contactlabel {
+  float: left;
+  width: 75px;
+}
+
+.fe_user_cards .user .contactdata {
+  margin-left: 75px;
 }

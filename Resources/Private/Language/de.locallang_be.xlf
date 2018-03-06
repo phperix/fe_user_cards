@@ -12,6 +12,10 @@
                 <source>Usergroups</source>
                 <target>Benutzergruppen</target>
             </trans-unit>
+            <trans-unit id="fe_user_cards.hide_image">
+                <source>Hide image</source>
+                <target>Bild verbergen</target>
+            </trans-unit>
             <trans-unit id="fe_user_cards.single_fe_user_card_title">
                 <source>Single fe_user card</source>
                 <target>Einzelne fe_user card</target>

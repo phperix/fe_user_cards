@@ -10,6 +10,9 @@
             <trans-unit id="fe_user_cards.user_groups">
                 <source>Usergroups</source>
             </trans-unit>
+            <trans-unit id="fe_user_cards.hide_image">
+                <source>Hide image</source>
+            </trans-unit>
             <trans-unit id="fe_user_cards.single_fe_user_card_title">
                 <source>Single fe_user card</source>
             </trans-unit>

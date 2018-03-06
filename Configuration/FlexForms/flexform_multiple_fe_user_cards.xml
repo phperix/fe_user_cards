@@ -27,6 +27,14 @@
 							</config>
 						</TCEforms>
 					</settings.userGroup>
+					<settings.hideImage>
+						<TCEforms>
+							<label>LLL:EXT:fe_user_cards/Resources/Private/Language/locallang_be.xlf:fe_user_cards.hide_image</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</settings.hideImage>
 				</el>
 			</ROOT>
 		</sDEF>

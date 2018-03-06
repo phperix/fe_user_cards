@@ -6,7 +6,7 @@
     $pluginSignatureMultiple = strtolower($extensionName) . '_multiplefeusercards';
     $pluginTitleSingle = 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_be.xlf:fe_user_cards.single_fe_user_card_title';
     $pluginTitleMultiple = 'LLL:EXT:' . $_EXTKEY . '/Resources/Private/Language/locallang_be.xlf:fe_user_cards.multiple_fe_user_cards_title';
-    $pluginIcon = '';
+    $pluginIcon = 'EXT:' . $_EXTKEY . '/Resources/Public/Icons/Extension.png';
     $pluginType = 'list_type';
 
     // Register Single plugin

@@ -25,7 +25,7 @@ First select the storage folder where your fe_users and fe_groups are stored. Af
 ### Sorting of multiple fe_user cards
 Edit your fe_user then go to options-tab. There you will find afield 'sorting'. Just instert an integer with the sorting position you want this user to be. The user will be sorted ascending by this value.
 
-##FAQ
+## FAQ
 ### Why is this beta?
 The Typo3 guidelines say that stable plugins have to be well supported and I will add fixes or new features if I need them. But feel free to contribute to this plugin.
 

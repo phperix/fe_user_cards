@@ -19,8 +19,7 @@
   ],
   "type": "typo3-cms-extension",
   "license": "GPL-3.0-or-later",
-  "minimum-stability":"dev",
-  "prefer-stable": "true",
+  "minimum-stability":"stable",
   "require": {
     "typo3/cms-core": ">=8.7.0 <9.6.0"
   },
